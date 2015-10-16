@@ -18,7 +18,15 @@
     [super viewDidLoad];
     
     /*
-     typedef enum UIApplicationShortcutIconType : NSInteger { UIApplicationShortcutIconTypeCompose, UIApplicationShortcutIconTypePlay, UIApplicationShortcutIconTypePause, UIApplicationShortcutIconTypeAdd, UIApplicationShortcutIconTypeLocation, UIApplicationShortcutIconTypeSearch, UIApplicationShortcutIconTypeShare, UIApplicationShortcutIconTypeProhibit, UIApplicationShortcutIconTypeContact, UIApplicationShortcutIconTypeHome, UIApplicationShortcutIconTypeMarkLocation, UIApplicationShortcutIconTypeFavorite, UIApplicationShortcutIconTypeLove, UIApplicationShortcutIconTypeCloud, UIApplicationShortcutIconTypeInvitation, UIApplicationShortcutIconTypeConfirmation, UIApplicationShortcutIconTypeMail, UIApplicationShortcutIconTypeMessage, UIApplicationShortcutIconTypeDate, UIApplicationShortcutIconTypeTime, UIApplicationShortcutIconTypeCapturePhoto, UIApplicationShortcutIconTypeCaptureVideo, UIApplicationShortcutIconTypeTask, UIApplicationShortcutIconTypeTaskCompleted, UIApplicationShortcutIconTypeAlarm, UIApplicationShortcutIconTypeBookmark, UIApplicationShortcutIconTypeShuffle, UIApplicationShortcutIconTypeAudio, UIApplicationShortcutIconTypeUpdate } UIApplicationShortcutIconType;
+     typedef NS_ENUM(NSInteger, UIApplicationShortcutIconType) {
+     UIApplicationShortcutIconTypeCompose,
+     UIApplicationShortcutIconTypePlay,
+     UIApplicationShortcutIconTypePause,
+     UIApplicationShortcutIconTypeAdd,
+     UIApplicationShortcutIconTypeLocation,
+     UIApplicationShortcutIconTypeSearch,
+     UIApplicationShortcutIconTypeShare
+     } NS_ENUM_AVAILABLE_IOS(9_0);
      */
     // Do any additional setup after loading the view, typically from a nib.
 }
